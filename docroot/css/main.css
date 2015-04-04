@@ -1,0 +1,14 @@
+.shido-image-slider {
+	margin: 0 !important;
+	
+	li {
+		/* background-image: -webkit-radial-gradient(50% 100% at 50% 60% , rgba(128, 138, 135, 0.9), rgba(0, 0, 0, 0.9));
+		background-image: radial-gradient(50% 100% at 50% 60% , rgba(128, 138, 135, 0.9), rgba(0, 0, 0, 0.9)); */
+	
+		img {
+			margin: 0 auto !important;
+			/* width: 600px !important;
+			height: 400px !important; */
+		}
+	}
+}

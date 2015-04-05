@@ -34,7 +34,9 @@
 					background-image:url(${url});
 					background-repeat:no-repeat;
 					background-position:center center;">
-					<a href="${links[status.index]}" style="display:block;height:100%;width:100%;">
+					<a href="${links[status.index]}" style="display:block;height:100%;text-decoration:none;">
+						<span style="display:block;position:absolute;text-align:center;top:50%;width:100%;
+							color:#fff;font-size:50px;font-family:Microsoft Yahei;">${titles[status.index]}</span>
 		        	</a>
 				</div>
 		    </li>

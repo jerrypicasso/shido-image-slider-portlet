@@ -31,6 +31,7 @@
 		<c:forEach items="${urls}" var="url" varStatus="status">
 			<li style="height: <%= height%>px;">
 				<div style="height:100%;width:100%;
+					display:inline-block;
 					background-image:url(${url});
 					background-repeat:no-repeat;
 					background-position:center center;">
